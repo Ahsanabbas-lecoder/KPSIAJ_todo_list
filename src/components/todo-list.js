@@ -9,7 +9,7 @@ import {
   List
 } from '@mui/material';
 import { Add } from '@mui/icons-material';
-import TodoItem from '../TodoItem';
+import TodoItem from './TodoItem';
 
 const TodoList = ({ todos, setTodos, newTodo, setNewTodo }) => {
   // Add a new todo
